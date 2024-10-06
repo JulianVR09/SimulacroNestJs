@@ -16,25 +16,25 @@ To run the project locally, follow these steps:
 
 First, clone the repository to your local machine:
 
-\`\`\`bash
+```bash
 git clone <repository-url>
-\`\`\`
+```
 
 ### 2. Install dependencies
 
 Once the repository is cloned, navigate to the project directory and install the necessary dependencies listed in \`package.json\`:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 3. Start the project in development mode
 
 After the dependencies are installed, start the project in development mode using the following command:
 
-\`\`\`bash
+```bash
 npm run start:dev
-\`\`\`
+```
 
 This will launch the project, and you can begin working with it.
 
