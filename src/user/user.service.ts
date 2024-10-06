@@ -1,10 +1,10 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
-import { GenericService } from 'src/common/services/generic.service';
+import { GenericService } from '../common/services/generic.service';
 import { User } from './schema/user.schema';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
-import { PasswordService } from 'src/common/services/password.service';
+import { PasswordService } from '../common/services/password.service';
 
 @Injectable()
 export class UserService extends GenericService<User> {
