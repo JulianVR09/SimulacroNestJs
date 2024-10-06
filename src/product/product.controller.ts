@@ -1,7 +1,7 @@
 import { Body, Controller, Delete, Get, Param, Patch, Post, UseFilters, UseInterceptors, ValidationPipe } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { HttpExceptionFilter } from 'src/common/filters/http-exception.filter';
-import { ResponseInterceptor } from 'src/common/interceptors/response.interceptor';
+import { HttpExceptionFilter } from '../common/filters/http-exception.filter';
+import { ResponseInterceptor } from '../common/interceptors/response.interceptor';
 import { ProductService } from './product.service';
 import { CreateProductDto } from './dto/create-product.dto';
 import { Product } from './schema/product.schema';
